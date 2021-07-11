@@ -16,6 +16,7 @@
 		<link rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
 		>
+		<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css">
 		<link rel="stylesheet" href="./style.css">
 		<link rel="icon" href="./images/code-alt.svg">
 
@@ -567,6 +568,61 @@
 
 			</section>
 
+			<section class="p-5">
+
+				<div class="container">
+
+					<div class="row g-4">
+
+						<div class="col-md">
+
+							<h2 class="text-center mb-4">
+								Contact Info
+							</h2>
+
+							<ul class="list-group list-group-flush lead">
+
+								<li class="list-group-item">
+									<span class="fw-bold">Main Location:</span>
+									50 Main Street, Boston MA
+								</li>
+
+								<li class="list-group-item">
+									<span class="fw-bold">Enrollment Phone:</span>
+									+91-9988776655
+								</li>
+
+								<li class="list-group-item">
+									<span class="fw-bold">Student Phone:</span>
+									+91-9988776655
+								</li>
+
+								<li class="list-group-item">
+									<span class="fw-bold">Enrollment Email:</span>
+									frontendBootcamp@domain.com
+								</li>
+
+								<li class="list-group-item">
+									<span class="fw-bold">Student Email:</span>
+									frontendBootcamp@domain.com
+								</li>
+
+							</ul>
+
+						</div>
+
+						<div class="col-md">
+
+							<div id="map"></div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+
 		</main>
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -574,6 +630,8 @@
 			crossorigin="anonymous"
 		>
 		</script>
+		<script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+		<script src="./mapbox.js"></script>
 
 	</body>
 
